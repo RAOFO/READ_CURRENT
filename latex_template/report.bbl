@@ -1,0 +1,37 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\EM}{\em}
+\providecommand{\RNtxt}{\relax}
+\RNtxt{}
+
+\bibitem[Gui et~al.(2014)F.~Gui, P.~Wang, C.~Wu]{gui2014}
+{\EM Gui Fukun, Wang Ping, Wu~Changwen}.
+\newblock Evaluation approaches of fish swimming performance
+  \allowbreak\newblock// Agricultural Sciences. 2014. 05, 02. 106--113.
+
+\bibitem[Hvas et~al.(2021)M.~Hvas, O.~Folkedal, F.~Oppedal]{hva2021}
+{\EM Hvas Malthe, Folkedal Ole, Oppedal Frode}.
+\newblock What is the limit of sustained swimming in Atlantic salmon post
+  smolts? \allowbreak\newblock// Aquaculture Environment Interactions. may
+  2021. 13. 189--198.
+
+\bibitem[Larsen et~al.(2019)K.~M.~H. Larsen, B.~Niclasen, G.~�. Norði,
+  E.~Olsen, Øystein Patursson, K.~Simonsen]{lar2019}
+{\EM Larsen Karin M.~H., Niclasen Bárður, Norði Gunnvør~á, Olsen Erna,
+  Patursson  Øystein, Simonsen Knud}.
+\newblock {Streymur og alda í umhvørvisfyrisiting av firðunum}. 2019.
+
+\bibitem[Liu et~al.(2023)H.-F. Liu, Y.~Liu, F.~Gui, H.~Sun, Y.-P.
+  Zhao]{liu2023}
+{\EM Liu Hang-Fei, Liu Ying, Gui Fukun, Sun Haofeng, Zhao Yun-Peng}.
+\newblock Quantitative evaluation on the suitable flow region inside the
+  shielding device of submersible aquaculture facility \allowbreak\newblock//
+  Ocean Engineering. jan 2023. 267. 113270.
+
+\bibitem[{Standards Norway}(2022)]{ns2022}
+{\EM {Standards Norway} }.
+\newblock Marine fish farms -- {R}equirements for site survey, risk analyses,
+  design, dimensioning, production, installation and operation. 2022. {NS
+  9415:2022}.
+
+\end{thebibliography}

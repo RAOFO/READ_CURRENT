@@ -1,0 +1,90 @@
+%\documentclass[12pt,a4paper,fleqn,twosided,article]{memoir}
+%\documentclass[12pt,a4paper,fleqn,article]{memoir}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{floatflt} 
+%\usepackage[dvips]{graphicx} commented for autoreport
+\usepackage[english]{babel}
+%\usepackage[danish]{babel}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{xfrac}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{longtable}
+\usepackage{float}
+\restylefloat{table}
+%\usepackage[output-decimal-marker={.}, range-phrase=--,detect-all, output-complex-root = \text{\ensuremath{j}}, complex-root-position = before-number]{siunitx}
+\usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage{times}
+\usepackage{wrapfig}
+\usepackage{tabularx,ragged2e,booktabs}
+\usepackage{pifont}
+\usepackage[round]{natbib}             % für Literaturverzeichnis
+\bibliographystyle{rusnat} %plainnat}
+%\bibliographystyle{elsart-harv}
+%\bibliographystyle{abbrvnat}
+\usepackage{mathtools}
+\usepackage{xxcolor}
+\usepackage{tikz}
+\mathtoolsset{showonlyrefs}
+\usepackage{memhfixc}
+ \setlength{\parindent}{0pt}
+% \setlength{\parskip}{1mm}
+\usetikzlibrary{spy}
+\usetikzlibrary{arrows,snakes}
+\usetikzlibrary{intersections,calc,decorations.markings}
+
+\let\cite=\citep
+
+% \DeclareMathSymbol{,}{\mathpunct}{letters}{"3B}
+% \DeclareMathSymbol{.}{\mathord}{letters}{"3B}
+% \DeclareMathSymbol{\decimal}{\mathord}{letters}{"3A}
+
+% \DeclareMathSymbol{.}{\mathpunct}{letters}{"3A}
+% \DeclareMathSymbol{,}{\mathord}{letters}{"3B}
+% \DeclareMathSymbol{;}{\mathpunct}{letters}{"3B}
+
+%\addto\captionsdanish{
+%\renewcommand\figurename{Mynd}
+%\renewcommand{\figurerefname}{mynd} 
+%\renewcommand\tablename{Talva}
+%\renewcommand\tablerefname{talvu}
+%\renewcommand{\contentsname}{Innihald}
+%\renewcommand*{\bibname}{Tilvísingar}
+%\renewcommand\contentsname{Indholdsfortegnelse}
+%\renewcommand\thefigure{\theuppgnr.\arabic{figure}}
+%}
+
+ \copypagestyle{tekststilur}{ruled}
+ \makeevenhead{tekststilur}{\leftmark}{}{}
+ \makeevenfoot{tekststilur}{Page \thepage ~ of \thelastpage}{}{
+\small{\heiti}}
+ \makeoddhead{tekststilur}{}{}{\rightmark}
+ \makeoddfoot{tekststilur}{\verkatlan}{}{Page \thepage ~ of \thelastpage}
+
+\setsecnumdepth{subsubsection}
+\maxsecnumdepth{subsubsection}
+ 
+\mergepagefloatstyle{mergedstyle}{tekststilur}{plain}
+% \mergepagefloatstyle{mergedstyle}{tekststilur}{empty}
+
+\tightlists
+% \OnehalfSpacing
+\addtolength{\textheight}{2cm}
+\addtolength{\textwidth}{2cm}
+\addtolength{\footskip}{1cm}
+%\setlrmargins{ spine }{ edge }{ ratio }
+\setlrmargins{2.7cm}{*}{*}
+\setulmargins{3cm}{*}{*}
+%\addtolength{\footskip}{1cm}
+%\addtolength{\uppermargin}{5cm}
+\fixthelayout
+%\typeoutlayout
+%\typeoutstandardlayout
+
+\fixpdflayout
+
+%\includeonly{Notation}
+
+\setlength{\unitlength}{1mm}
